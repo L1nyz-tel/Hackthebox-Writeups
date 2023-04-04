@@ -9,7 +9,13 @@ Welcome to the HackTheBox WP repository! This repository is dedicated to documen
 ### Easy
 
 - Forest
-  - [Boogipop](./Boogipop-Forest.md)
+  - [Boogipop](./Forest-Boogipop.md)
+
+### Medium
+
+- Socket
+  - [Boogipop](./Socket-Boogipop.md)
+
 
 ### Insane
 
