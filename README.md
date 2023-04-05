@@ -15,7 +15,8 @@ Welcome to the HackTheBox WP repository! This repository is dedicated to documen
 
 - Socket
   - [Boogipop](./Socket-Boogipop.md)
-
+- BroScience
+  - [L1nyz-tel](./BroScience-L1nyz-tel.md)
 
 ### Insane
 
