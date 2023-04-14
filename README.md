@@ -22,7 +22,7 @@ Welcome to the HackTheBox WP repository! This repository is dedicated to documen
 
 - APT
   - [L1nyz-tel](./APT-L1nyz-tel.md)
-  - [Boogipop](./Absolute Writeup By Boogipop.md)
+  - [Boogipop](./Absolute%20Writeup%20By%20Boogipop.md)
 
 ## Collaborators
 
