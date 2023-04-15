@@ -18,13 +18,17 @@ Welcome to the HackTheBox WP repository! This repository is dedicated to documen
 - BroScience
   - [L1nyz-tel](./BroScience-L1nyz-tel.md)
 
+### Hard
+
+- Cerberus
+  - [L1nyz-tel](./Cerberus-L1nyz-tel.md)
+
 ### Insane
 
 - APT
   - [L1nyz-tel](./APT-L1nyz-tel.md)
-
 - Absolute
-  - [Boogipop](./Absolute%20Writeup%20By%20Boogipop.md)
+  - [Boogipop](./Absolute-Boogipop.md)
 
 ## Collaborators
 

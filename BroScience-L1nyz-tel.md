@@ -526,7 +526,7 @@ fi
 
 需要伪造证书中的 `'CN = .*,?'` 字段
 
-`commonName=$(echo ${commonName:5} | awk -F, '{print $1}')` 将 `CN = ` 这五个字符截取了，只取后面的字符串（**一开始还以为只能使用前五个字符，来 root，原来指的是无个字符之后的字符串**）
+`commonName=$(echo ${commonName:5} | awk -F, '{print $1}')` 将 `CN = ` 这五个字符截取了，只取后面的字符串（**一开始还以为只能使用前五个字符，来 root，原来指的是五个之后的字符串**）
 
 ![](https://i.328888.xyz/2023/04/05/i8Wykv.png)
 
@@ -535,3 +535,10 @@ fi
 # PWN！
 
 ![](https://i.328888.xyz/2023/04/05/i8Wnr8.png)
+
+# 使用工具
+
+- psql
+- hashcat + rockyou.txt
+- pspy64
+- ssh-keygen -t rsa -m PEM
