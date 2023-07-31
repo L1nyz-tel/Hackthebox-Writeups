@@ -10,6 +10,7 @@ Welcome to the HackTheBox WP repository! This repository is dedicated to documen
 
 - Forest
   - [Boogipop](./Forest-Boogipop.md)
+  - [L1nyz-tel](./Forest-L1nyz-tel.md)
 
 ### Medium
 
