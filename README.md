@@ -25,6 +25,8 @@ Welcome to the HackTheBox WP repository! This repository is dedicated to documen
 
 - Cerberus
   - [L1nyz-tel](./Cerberus-L1nyz-tel.md)
+- Flight
+  - [L1nyz-tel](./Flight-L1nyz-tel.md)
 
 ### Insane
 
